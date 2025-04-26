@@ -1,0 +1,182 @@
+/* Home Page */
+
+    /* Introduction */
+
+    #hero-intro .container-fluid {
+        background-image: url("../images/bg_introduction_reduced_brightness.jpg");
+    }
+
+    #welcome-text h2 {
+        font-size: 4.5rem;
+    }
+
+    #welcome-text span {
+        color: var(--main-color);
+    }
+
+    #hero-intro .row {
+        height: 100vh;
+        align-items: center;
+    }
+
+    #hero-intro form {
+        display: flex;
+    }
+
+    #hero-intro .form-control {
+        border-right: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        transition: 0.2s ease;
+    }
+
+    #hero-intro.form-control:focus {
+        background: var(--snd-bg-color);
+        transition: 0.2s ease;
+    }
+
+    #hero-intro .btn {
+        border-left: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    /* Popular This Week  */
+
+    #popular-this-week .container-fluid {
+        background-image: url("../images/background/object-3.png");
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+
+    .book-items img {
+        border: 10px solid var(--main-color);
+        border-color: rgba(66, 195, 227, 0.571);
+        box-shadow: 5px 20px 40px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+
+    /* Stream and Download */
+
+    #stream-download .container-fluid {
+        background-image: url("../images/background/object-4.png"), url("../images/background/object-5.png");
+        background-size: 28%, 13%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: bottom right, 13% 100%;
+    }
+
+    .box-items {
+        padding: 40px;
+        margin-bottom: 40px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+    }
+
+    .box-items svg {
+        color: var(--main-color);
+        margin-bottom: 10px;
+    }
+
+    /* Best Selling Books Collections */
+
+    #best-selling .container-fluid {
+        background-image: url("../images/background/object-6.png");
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: 52% 53%;
+    }
+
+    /* Library Counters */
+
+    #library-counter .container-fluid {
+        background-image: url("../images/background/object-9.png");
+        background-size: 8%;
+        background-repeat: no-repeat;
+        background-position: 7% 2000%;
+    }
+
+    #library-counter .container {
+        background-color: var(--main-color);
+    }
+
+    #library-counter .row {
+        align-items: center;
+    }
+
+    .counter-box {
+        display: flex;
+        color: #fff;
+    }
+
+    .counter-box svg {
+        margin-right: 30px;
+        background-color: #fff;
+        color: var(--main-color);
+        padding: 10px;
+    }
+
+    /* Room Booking */
+
+    #room-booking .container-fluid {
+        background-image: url("../images/background/object-8.png"), url("../images/background/object-7.png"), url("../images/room-booking-banner_reduced_brightness.jpg");
+        background-size: 7%, 8%, cover;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: bottom left, top right, center;
+    }
+
+    .room-booking-text {
+        padding: 60px;
+    }
+
+    /* Subscribe Now */
+
+    #subscribe-now .container {
+        background-color: var(--main-color);
+    }
+
+    .button-subscribe a {
+        background-color: #ffffff2e;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .button-subscribe a:hover {
+        background-color: var(--highlight-color);
+        color: #fff;
+    }
+
+    /* Popular Authors */
+
+    #popular-authors .container-fluid {
+        background-image: url("../images/background/object-2.png");
+        background-size: 13%;
+        background-repeat: no-repeat;
+        background-position: 100% -100%;      
+    }
+
+    #popular-authors a {
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+    /* External Sources */
+
+    #external-sources .container-fluid {
+        background-image: url("../images/background/object-12.png"), url("../images/background/object-13.png");
+        background-size: 7%, 17%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: 0% 0%, bottom left;
+    }
+
+    #external-sources a {
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+
+
+    

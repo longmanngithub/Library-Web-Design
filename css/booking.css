@@ -1,0 +1,107 @@
+/* Rooms */
+
+main {
+    background-image: url("../images/authors/object-1.png"),
+                      url("../images/authors/object-2.png");
+    background-size: 15%, 15%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top left;
+}
+
+#room-page .text-box h2 {
+    font-size: 4rem;
+}
+
+#room-img-1 {
+    background-image: url("../images/rooms/img1.jpg");
+}
+
+#room-img-2 {
+    background-image: url("../images/rooms/img3.jpg");
+}
+
+#room-img-3 {
+    background-image: url("../images/rooms/img2.png");
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .u-image {
+        background-size: cover;
+        background-image: center;
+        background-repeat: no-repeat;
+        height: 300px;
+    }
+}
+
+/* Library Counters */
+
+#library-counter .container-fluid {
+  background-image: url("../images/background/object-9.png");
+  background-size: 8%;
+  background-repeat: no-repeat;
+  background-position: 7% 2000%;
+}
+
+#library-counter .container {
+  background-color: var(--main-color);
+}
+
+#library-counter .row {
+  align-items: center;
+}
+
+.counter-box {
+  display: flex;
+  color: #fff;
+}
+
+.counter-box svg {
+  margin-right: 30px;
+  background-color: #fff;
+  color: var(--main-color);
+  padding: 10px;
+}
+
+/* Room Booking */
+
+#room-booking .container-fluid {
+  background-image: url("../images/background/object-8.png"),
+                    url("../images/background/object-7.png"),
+                    url("../images/room-booking-banner_reduced_brightness.jpg");
+  background-size: 7%, 8%, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom left, top right, center;
+}
+
+.room-booking-text {
+  padding: 60px;
+}
+
+/* Subscribe Now */
+
+#subscribe-now .container {
+  background-color: var(--main-color);
+}
+
+.button-subscribe a {
+  background-color: #ffffff2e;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button-subscribe a:hover {
+  background-color: var(--highlight-color);
+  color: #fff;
+}
+
+#subscribe-now .container-fluid {
+    padding-bottom: 150px;
+    background-image: url("../images/authors/object-3.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

@@ -1,0 +1,20 @@
+main .container-fluid {
+    background-image: url("../images/authors/object-1.png"),
+                      url("../images/authors/object-2.png");
+    background-size: 15%, 15%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top left;
+}
+
+.container h2 {
+    font-size: 3.5rem;
+}
+
+main .container {
+    min-height: calc(100vh - 155px);
+}
+
+.table-custom {
+    background-color: var(--snd-bg-color);
+}
+

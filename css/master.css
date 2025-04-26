@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+:root {
+    --bg-color: #fff;
+    --snd-bg-color: #d1ebf2;
+    --text-color: #111;
+    --main-color: #42C4E3;
+    --highlight-color: #ffc107;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    position: relative;
+    display: block;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.u-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.animation {
+    transition: 0.2s ease;
+}
+
+.animation:hover {
+    transition: 0.2s ease;
+    transform: scale(1.02);
+}
+
+.white-font {
+    color: #fff;
+}
+
+.secondary-grey-font {
+    color: #808080;
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: var(--snd-bg-color);
+    border-color: var(--snd-bg-color);
+    color: var(--main-color);
+}
+
+.btn-outline-primary {
+    border-color: var(--main-color);
+    color: var(--main-color)
+}
+
+.btn-outline-primary:hover {
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.custom-text-bg {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.custom-border {
+    border-color: var(--main-color);
+}

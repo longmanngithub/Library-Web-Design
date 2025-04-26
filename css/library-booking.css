@@ -1,0 +1,56 @@
+/* Borrow */
+
+main {
+    background-image: url("../images/authors/object-1.png"),
+                      url("../images/authors/object-2.png");
+    background-size: 15%, 15%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top left;
+}
+
+#library-booking .text-box h2 {
+    font-size: 4rem;
+}
+
+#room-img-1 {
+    background-image: url("../images/rooms/img1.jpg");
+}
+
+#room-img-2 {
+    background-image: url("../images/rooms/img1.jpg");
+}
+
+#room-img-3 {
+    background-image: url("../images/rooms/img3.jpg");
+}
+
+#room-img-4 {
+    background-image: url("../images/rooms/img1.jpg");
+}
+
+#room-img-5 {
+    background-image: url("../images/rooms/img3.jpg");
+}
+
+#room-img-6 {
+    background-image: url("../images/rooms/img3.jpg");
+}
+
+.u-image {
+    height: 150px;
+}
+
+#modal-success svg {
+    color: var(--main-color);
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .u-image {
+        background-size: cover;
+        background-image: center;
+        background-repeat: no-repeat;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+}

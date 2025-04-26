@@ -1,0 +1,59 @@
+#forgot-page .container {
+    min-height: calc(100vh - 155px);
+}
+
+.box-area {
+  width: 930px;
+}
+
+.left-box {
+  background-image: url("../images/forgot/featured-3.jpeg");
+}
+
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+form input {
+  height: 45px;
+  width: 42px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#submit-btn {
+  pointer-events: none;
+  background-color: var(--snd-bg-color);
+  border-color: var(--snd-bg-color);
+}
+
+#submit-btn.active {
+  background-color: var(--main-color);
+  pointer-events: auto;
+}
+
+#submit-btn:hover {
+  background-color: var(--highlight-color);
+  border-color: var(--highlight-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    min-height: 150px;
+    overflow: hidden;
+  }
+  .right-box {
+    padding: 20px;
+  }
+}

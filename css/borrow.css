@@ -1,0 +1,36 @@
+/* Borrow */
+
+main {
+    background-image: url("../images/authors/object-1.png"),
+                      url("../images/authors/object-2.png");
+    background-size: 15%, 15%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top left;
+}
+
+#borrow-page .text-box h2 {
+    font-size: 4rem;
+}
+
+#borrow-img-1 {
+    background-image: url("../images/rowling-books/book-four.jpg");
+}
+
+#borrow-img-2 {
+    background-image: url("../images/bestSelling/the_psychology_of_money.jpg");
+}
+
+#borrow-img-3 {
+    background-image: url("../images/popularWeek/atomic_habits.jpg");
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .u-image {
+        background-size: cover;
+        background-image: center;
+        background-repeat: no-repeat;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+}

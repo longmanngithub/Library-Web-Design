@@ -1,0 +1,32 @@
+#transaction {
+    max-width: 960px;
+    min-height: calc(100vh - 155px);
+}
+
+.container-fluid {
+    background-image: url("../images/authors/object-1.png"),
+                      url("../images/authors/object-2.png");
+    background-size: 15%, 15%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top left;
+}
+
+.form-check input[type="radio"] {
+    cursor: pointer;
+}
+
+.form-check label {
+    cursor: pointer;
+}
+
+.modal-sheet .modal-dialog {
+  transition: bottom .75s ease-in-out;
+}
+
+.modal-sheet .modal-footer {
+  padding-bottom: 2rem;
+}
+
+#modal-success svg {
+    color: var(--main-color);
+}
